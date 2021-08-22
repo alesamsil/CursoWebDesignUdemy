@@ -1,6 +1,7 @@
 Olá esse projeto faz parte do Curso de Webdesign/ Front-end Fundamentos.
 
-Descrição
+Descrição:
+
 Neste curso você irá aprender e desenvolver suas habilidades com HTML e CSS, além de ter uma boa base da linguagem de programação Javascript.
 
 Verá conceitos avançados de HTML, incluindo semântica e uma introdução ao SEO (otimização para sites de busca) e acessibilidade.
