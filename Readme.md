@@ -1,6 +1,8 @@
-Olá esse projeto faz parte do Curso de Webdesign/ Front-end Fundamentos.
+Olá! 
 
-Descrição:
+Criei esse repositório para organizar meus exercícios e projetos do Curso de Webdesign/Front-end Fundamentos.
+
+Descrição do curso:
 
 Neste curso você irá aprender e desenvolver suas habilidades com HTML e CSS, além de ter uma boa base da linguagem de programação Javascript.
 
