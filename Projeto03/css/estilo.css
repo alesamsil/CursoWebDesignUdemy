@@ -108,6 +108,31 @@ li{
     color: #49bf9d;
 }
 
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+}
+
+.button-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.button-default-small{
+    font-size: 0.65em;
+}
+
+.button-default-full{
+    display: block;
+    text-align: center;
+}
+
 .main-header{
     position: fixed;
     top: 0;
