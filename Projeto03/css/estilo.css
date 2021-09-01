@@ -15,6 +15,10 @@ a:hover{
     border-bottom-color: transparent;
 }
 
+img{
+    max-width: 100%;
+}
+
 p{
     margin: 0 0 2em;
 }
@@ -164,6 +168,21 @@ textarea{
     display: block;
     text-align: center;
 }
+
+.imagem-link{
+    border:0;
+}
+
+.recent-works-card img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-header-link img{
+    border-radius: 70px;
+    overflow: hidden;
+}
+
 
 .main-header{
     position: fixed;
