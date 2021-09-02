@@ -22,8 +22,11 @@
                 Trabalhos e groselhas de <br>
                 <strong>Daniel Tapias Morales</strong>,<br> 
                 um zé ninguém qualquer<br>
-                Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>.
-            </h1>            
+                </a>.
+            </h1>
+            <p>
+                Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net
+            </p>            
         </header>
         <main class=main-content>
             
@@ -42,7 +45,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/01.jpg">
-                                <img src="images/thumbs/01.jpg" title="descrição">
+                                <img src="images/thumbs/01.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Magna sed consequat tempus
                             </p>
@@ -50,7 +53,7 @@
                         </article>
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/02.jpg">
-                                <img src="images/thumbs/02.jpg" title="descrição">
+                                <img src="images/thumbs/02.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Ultricies lacinia interdum
                             </p>
@@ -58,7 +61,7 @@
                         </article>
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/03.jpg">
-                                <img src="images/thumbs/03.jpg" title="descrição">
+                                <img src="images/thumbs/03.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Tortor metus commodo
                             </p>
@@ -68,7 +71,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/04.jpg">
-                                <img src="images/thumbs/04.jpg" title="descrição">
+                                <img src="images/thumbs/04.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Quam neque phasellus
                             </p>
@@ -76,7 +79,7 @@
                         </article>
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/05.jpg">
-                                <img src="images/thumbs/05.jpg" title="descrição">
+                                <img src="images/thumbs/05.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Nunc enim commodo aliquet
                             </p>
@@ -84,7 +87,7 @@
                         </article>
                         <article class="recent-works-card">
                             <a class="imagem-link" href="images/fulls/06.jpg">
-                                <img src="images/thumbs/06.jpg" title="descrição">
+                                <img src="images/thumbs/06.jpg" alt="descrição">
                             </a>
                             <p class="recent-works-card-title">Risus ornare lacinia
                             </p>
@@ -126,11 +129,11 @@
                                 1234 Somewhere Rd. Nashville, TN 00000 United States
                             </p>
                             <p>
-                                <span>Telefone</span>
+                                <span>Telefone: </span>
                                 000-000-000
                             </p>
                             <p>
-                                <span>E-mail</span>
+                                <span>E-mail:</span>
                                 email@server.com
                             </p>
                         </address>
@@ -151,7 +154,8 @@
                 <h6>Título h6</h6>
 
                 <blockquote cite="http://developer.mozila.org">
-                    Está é uma citação tirada da Mozila Developer Center.
+                    <p>Está é uma citação tirada da Mozila Developer Center.</p>
+                    <p>Outrooss parafrafo.</p>
                 </blockquote>
 
                 <p> According to Mozilla's website
@@ -159,13 +163,11 @@
                 </p>
 
                 <h4>Preformatado</h4>
-                <pre>
-                    <code>
+                <pre><code>
 &lt;script&gt;
     alert('oi');
 &lt;/script&gt;
-                    </code>
-                </pre>
+                </code></pre>
                 <h4>Listas</h4>
                 
                 <div class="row">
@@ -195,9 +197,9 @@
 
                         <h5>Icons</h5>
                         <ul class="ul-icons">
-                            <li><i class="fab fa-twitter"></i></li>
-                            <li><i class="fab fa-facebook-square"></i></li>
-                            <li><i class="fab fa-twitch"></i></li>
+                            <li><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></li>
+                            <li><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></li>
+                            <li><span class="hidden">Twitch</span><i class="fab fa-twitch"></i></li>
                         </ul>
                     </div>
                 </div>              
@@ -342,31 +344,35 @@
                 <input type="submit" class="button-default" value="mandar">
 
                 <h5>Forms</h5>
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name">
 
-                <label for="name">Email</label>
-                <input type="email" name="email" id="email">
+                <form action="#" method="post">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name">
+    
+                    <label for="name">Email</label>
+                    <input type="email" name="email" id="email">
+    
+                    <select>
+                        <option value="0"> Selecione...</option>
+                        <option value="1"> HTML</option>
+                        <option value="2"> CSS</option>
+                        <option value="3"> JAVA</option>
+                    </select>
+    
+                    <label><input type="radio" value="baixa" name="prioridade"> Baixa Prioridade</label>
+                    <label><input type="radio" value="media" name="prioridade"> Média Prioridade</label>
+                    <label><input type="radio" value="alta" name="prioridade"> Alta Prioridade</label>
+    
+                    <label><input type="checkbox" name="copy" value="1"> Envie-me uma cópia</label>
+                    <label><input type="checkbox" name="human" value="1"> Sou humano</label>
+    
+                    <label for="msg"> Mensagens:</label>
+                    <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
+    
+                    <input type="submit" class="button-default button-default-big" value="Enviar">
+                    <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">
+                </form>
 
-                <select>
-                    <option value="0"> Selecione...</option>
-                    <option value="1"> HTML</option>
-                    <option value="2"> CSS</option>
-                    <option value="3"> JAVA</option>
-                </select>
-
-                <label><input type="radio" value="baixa" name="prioridade"> Baixa Prioridade</label>
-                <label><input type="radio" value="media" name="prioridade"> Média Prioridade</label>
-                <label><input type="radio" value="alta" name="prioridade"> Alta Prioridade</label>
-
-                <label><input type="checkbox" name="copy" value="1"> Envie-me uma cópia</label>
-                <label><input type="checkbox" name="human" value="1"> Sou humano</label>
-
-                <label for="msg"> Mensagens:</label>
-                <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
-
-                <input type="submit" class="button-default button-default-big" value="Enviar">
-                <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">
             </section>
             <section class="main-content-section">
                 <h3>Imagens</h3>
@@ -391,6 +397,15 @@
             </section>
 
         </main>
-        <footer class="main-footer"></footer>
+        <footer class="main-footer">
+            <ul class="ul-icons">
+                <li><a href="#" class="icon-link"><span class="hidden">Twitter</span><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>© Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+
+        </footer>
     </body>
 </html>
