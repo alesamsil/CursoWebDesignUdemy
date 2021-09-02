@@ -340,6 +340,27 @@ textarea{
     border: 1px solid #ddd;
 }
 
+.img-right{
+    float: left;
+    margin-right: 20px;
+}
+
+.img-left{
+    float: right;
+    margin-left: 20px;
+}
+
+
+.p-text-left{
+    text-align: left;
+}
+
+.p-text-right{
+    text-align: right;
+}
+
+/*Footer*/
+
 .main-footer{
     position: fixed;
     bottom: 0;
