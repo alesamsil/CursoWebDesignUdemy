@@ -101,7 +101,33 @@ h1, h2, h3, h4, h5, h6{
     font-weight: normal;
 }
 
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
 
+.footer{
+    background:#25303e;
+	color: #83969f;
+	text-align:center;
+	padding-bottom:2em;
+}
 
+.footer-menushare{
+    background:#303d4c;	
+    padding: .5em;
+}
 
+.footer-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+}
+.footer-menushare a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
 
