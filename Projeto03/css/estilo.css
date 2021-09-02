@@ -4,6 +4,10 @@ body {
     line-height: 1.7;
 }
 
+header p{
+    color: white;
+}
+
 a{
     transition: color .2s linear, border .2s linear;
     text-decoration: none;
