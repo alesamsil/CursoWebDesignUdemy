@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Oxygen";
 }
 
-.clearfix:after{
+.clearfix:after, .row:after{
     content: ' ';
     display: block;
     clear: both;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6{
 
     .top-nav ul{
         margin: 0;
-        padding: ;
+        padding: 0;
     }
 
     .top-nav li{
@@ -175,5 +175,13 @@ h1, h2, h3, h4, h5, h6{
         color: white;
     }
 
+    .col-1-4{
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
 
+    .main-content-article .button{
+        
+    }
 }
