@@ -62,6 +62,79 @@
                 width: 100px;
             }
 
+            .flexbox:nth-child(9){
+                justify-content: center;
+                align-items: center;
+            }
+
+            .flexbox:nth-child(9) div{
+                background: yellow;
+                flex-basis: 50px;
+                height: 50px;
+            }
+
+            .flexbox:nth-child(10){
+                justify-content: center;
+                align-items: center;
+            }
+
+            .flexbox:nth-child(10) div{
+                background: yellow;
+                flex-basis: 100px;
+                height: 50px;
+            }
+
+            .flexbox:nth-child(10) div:nth-child(2){
+                flex-grow: 2;
+            }
+
+            .flexbox:nth-child(10) div:nth-child(4){
+                flex-grow: 1;
+            }
+
+
+            .flexbox:nth-child(11) div{
+                background: yellow;
+                flex-basis: 100px;
+                height: 50px;
+                margin: 5px;
+            }
+
+            .flexbox:nth-child(11) div:nth-child(2){
+                flex-shrink: 2;
+            }
+
+            .flexbox:nth-child(11) div:nth-child(4){
+                flex-shrink: 1;
+            }
+
+            .flexbox:nth-child(12) div:nth-child(2){
+                order: 3;
+            }
+            .flexbox:nth-child(12) div:nth-child(4){
+                order: 2;
+            }
+
+            .flexbox:nth-child(13){
+                align-items: flex-start;
+            }
+            .flexbox:nth-child(13) div:nth-child(2){
+                align-items: flex-start;
+                align-self: flex-end;
+            }
+
+            .flexbox:nth-child(13) div:nth-child(3){
+                align-items: flex-start;
+                align-self: center;
+            }
+
+            .flexbox:nth-child(13) div:nth-child(1){
+                align-items: flex-start;
+                align-self: stretch;
+            }
+
+
+
         </style>
     </head>
     <body>
@@ -93,6 +166,37 @@
             <div class="div3">3</div>
             <div class="div4">4</div>
         </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+        <div class="flexbox">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+        </div>
+
         <div class="flexbox">
             <div class="div1">1</div>
             <div class="div2">2</div>
