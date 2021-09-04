@@ -10,6 +10,7 @@
         
         <style>
             
+            /*
             @keyframes slide{
                 0%{
                     transform: translateY(0);
@@ -39,6 +40,45 @@
                     transform: translateY(0);         
                 }
             }
+            */
+
+            /*
+            @keyframes slide{
+                0%, 22%{
+                    transform: translateY(0);
+                }                
+                25%, 47%{
+                    transform: translateY(-50vh);
+                }                
+                50%, 72% {
+                    transform: translateY(-100vh);                    
+                }                
+                75%, 97% {
+                    transform: translateY(-150vh);                    
+                }
+                100%{
+                    transform: translateY(0);
+                }                       
+            }
+            */
+
+            @keyframes slide{
+                0%, 22%, 100%{
+                    transform: translateY(0);
+                }                
+                25%, 47%{
+                    transform: translateY(-50vh);
+                }                
+                50%, 72% {
+                    transform: translateY(-100vh);                    
+                }                
+                75%, 97% {
+                    transform: translateY(-150vh);                    
+                }              
+            }
+
+
+
             body{
                 font-family: sans-serif;
                 color: white;
@@ -57,6 +97,7 @@
             }
             
             #slide-interno{
+                will-change: transform;
                 width: 100%;
                 animation: slide 15s infinite cubic-bezier(.5,-0.73,.59,1.77);
             }
@@ -74,10 +115,10 @@
         
         <div id="slide-externo">
             <div id="slide-interno">
-                <img src="imagens/slide1.jpg" alt="dog 1">
-                <img src="imagens/slide2.jpg" alt="dog 2">
-                <img src="imagens/slide3.jpg" alt="dog 3">
-                <img src="imagens/slide4.jpg" alt="dog 4">
+                <img src="../Imagens/slide/slide1.jpg" alt="dog 1">
+                <img src="../Imagens/slide/slide2.jpg" alt="dog 2">
+                <img src="../Imagens/slide/slide3.jpg" alt="dog 3">
+                <img src="../Imagens/slide/slide4.jpg" alt="dog 4">
             </div>
         </div>
         
