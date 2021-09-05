@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lógica de Programação Javascript</title>
+    </head>
+    <body>
+        <h1>Lógica de Programação Javascript</h1>
+        
+        <button onclick="mostrarAreaAlert()" >Mostrar área</button>
+        <button onclick="mostrarAreaOutput()" >Mostrar área no output</button>
+
+        <div id="output"></div>
+
+    </body>
+    <script>
+        var largura = prompt("digite a largura");
+        largura = parseFloat(largura);
+
+        var altura = prompt("digite a altura");
+        altura = parseFloat(altura);
+
+        function mostrarAreaAlert (){
+            var area = calcularArea(largura, altura)
+            alert("A área total é: " + area);
+        }
+
+        function mostrarAreaOutput(){
+            var area = calcularArea(largura, altura)
+            document.querySelector('#output').innerHTML= ' A área total é: '+area;
+        }
+
+        function calcularArea(l, a){
+            return l * a;
+        }
+
+    </script>
+</html>
