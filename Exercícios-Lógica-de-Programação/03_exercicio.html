@@ -1,0 +1,47 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lógica de Programação Javascript</title>
+    </head>
+    <body>
+        <h1>Lógica de Programação Javascript</h1>
+
+        <script>
+
+            var n1 = prompt("Digite um numero");
+            n1 = parseFloat (n1);
+
+            var n2 = prompt("Digite um numero");
+            n2 = parseFloat (n2);
+
+            if(n1==n2){
+                alert("Números iguais");
+            }
+            else{
+                alert("Números diferentes");
+            }
+
+            var nSort = parseInt(Math.random () * 2);
+            
+            if(nSort === 0){
+                if (n1 < n2 ){
+                    alert("ganhou o jogador 1");
+                }
+                else{
+                    alert("ganhou o jogador 2");
+                }
+            }
+            else{
+                if (n1 > n2 ){
+                    alert("ganhou o jogador 1");
+                }
+                else{
+                    alert("ganhou o jogador 2");
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
