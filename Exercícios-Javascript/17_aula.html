@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        
+        <script src="beluga.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo</h1>
+        </div>
+
+        <script>
+            
+            var pessoa1 = {
+                nome: 'daniel',
+                sobrenome: 'tapias morales'
+            };
+            
+            var pessoa2 = {
+                nome: 'josé',
+                sobrenome: 'Geraldo'
+            };
+            
+            var pessoa3 = {
+                nome: 'maria',
+                sobrenome: 'Oliveira'
+            };
+                   
+            for (var i = 1; i <= 3; i++){
+                console.log(window["pessoa"+i].nome + ' ' + window["pessoa"+i].sobrenome);
+            }
+                                
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <script src="beluga.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo</h1>
+        </div>
+        
+        <script>
+            
+            var hoje = new Date();
+            
+            var x = [0];            
+            function mudaArr(x){
+                var y = x;
+                y.push(2);
+                x.push(3);
+            }
+            
+            mudaArr(x);      
+            
+            console.log('-----');
+            
+            var n = 0;
+            function mudaN(n){
+                var n2 = n;
+                console.log(++n2);
+            }
+            mudaN(n);
+            console.log(n);
+            
+            console.log('----');
+            
+            function mudaCor(cor){
+                console.log(this);
+                this.cor = cor;
+            }
+            
+            var caneta1 = {
+                cor: 'red',
+                preco: 1,
+                mudarCor: mudaCor
+            }
+            
+            var caneta2 = {
+                cor: 'blue',
+                preco: 2,
+                mudarCor: mudaCor
+            }
+            
+            caneta1.mudarCor('green');
+            console.log(caneta1)
+            console.log(caneta2)                 
+        </script>
+        
+    </body>
+</html>

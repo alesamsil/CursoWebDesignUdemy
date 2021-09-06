@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        
+        <script src="beluga.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo</h1>
+        </div>
+
+        <script>
+            
+            var Caneta = (function(window){
+                'use strict';
+                console.log(this)
+                function _caneta(preco, cor){
+                
+                    //privado
+                    var color = cor || 'black';
+                    //publicas
+                    this.preco = preco || 1;                
+                    this.mudarCor = function(cor){
+                        if(cor !== 'red' && cor !== 'blue' && cor !== 'black'){
+                            return;
+                        }
+                        color = cor;
+                    }
+
+                    this.pegaCor = function(){
+                        return color;
+                    }
+                }
+
+                return _caneta;
+            })(window)
+                           
+        </script>
+        
+    </body>
+</html>
