@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        
+        
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo 2018</h1>
+       
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolores veniam perspiciatis vel cum reprehenderit tempora laudantium, harum aspernatur, neque consequuntur aperiam, optio consectetur. Consectetur quod iure perspiciatis commodi eligendi!</p>
+           <p>Lorem ipsum </p>
+
+        </div>
+        
+        <script>
+        
+            var paragrafos = document.querySelectorAll('p');
+            
+            for (var i = 0; i < paragrafos.length; i++){
+                paragrafos[i].innerHTML = formataParagrafo(paragrafos[i].innerHTML);
+            }
+            
+            function formataParagrafo(texto){
+                var arr = texto.split(' ');
+                console.log(arr);
+                
+                if(arr.length > 10){
+                    return arr.slice(0, 10).join(' ') + '...';
+                }
+                
+                return texto;
+            }
+            
+        </script>
+        
+    </body>
+</html>

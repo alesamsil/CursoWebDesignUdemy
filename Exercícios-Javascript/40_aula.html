@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <script>
+            
+            (function(){
+                
+                var data = new Date();
+            
+                
+                function formatDate(data){ 
+                    var dia = data.getDate() < 10 ? '0' + data.getDate() : data.getDate();
+                
+                    var mes = data.getMonth() + 1;
+                    mes = mes < 10 ? '0' + mes : mes;
+                    return dia + '/' + mes + '/' + data.getFullYear();
+                }
+                
+                console.log(formatDate(data))
+                
+                
+            })()
+            
+            
+        </script>
+        
+    </head>
+    <body>
+        <h1>Curso Javascript Completo</h1>      
+         
+        
+    </body>
+</html>
