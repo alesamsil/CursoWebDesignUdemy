@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <script>                    
+            var nome = "Daniel Tapias Morales";
+            
+    var nomeFormatado = formatarNome(nome);
+
+    function formatarNome(nome){
+        //return "Morales, Daniel Tapias";
+        var posicaoUltimoEspaco = nome.lastIndexOf(' ');
+        if(posicaoUltimoEspaco <= 0) {
+            return nome;
+        } 
+
+        var ultimoNome = nome.slice(posicaoUltimoEspaco + 1);
+        console.log('ultimoNome', ultimoNome);
+
+        var primeiroNome = nome.slice(0, posicaoUltimoEspaco);
+        console.log('posicaoUltimoEspaco', posicaoUltimoEspaco);
+        
+        return ultimoNome +', ' + primeiroNome;
+
+    }
+            
+            console.log(nomeFormatado);
+        </script>
+        
+    </head>
+    <body>
+        <h1>Curso Javascript Completo 2018</h1> 
+        
+    </body>
+</html>

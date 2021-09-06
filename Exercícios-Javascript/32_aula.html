@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <script>                    
+(function(){
+    window.addEventListener('load', init);
+
+    function init(){
+        var $paragrafos = document.querySelectorAll('p');
+
+        var x = 0;
+        while($paragrafos[x]){
+            $paragrafos[x].innerHTML = formatarTexto($paragrafos[x].innerHTML);
+            x++;
+        }
+    }
+
+    function formatarTexto(texto){
+        var numeroMaximoCaracteres = 50;
+        if(texto.length <= numeroMaximoCaracteres) {
+            return texto;
+        }
+        var subTexto = texto.slice(0, numeroMaximoCaracteres);
+        return subTexto + '...';
+    }
+})()
+        </script>
+        
+    </head>
+    <body>
+        <h1>Curso Javascript Completo</h1> 
+        
+        <p>Lorem ipsum <b>dolor sit</b> amet, consectetur adipisicing elit. Fugiat amet perferendis quisquam repudiandae sed illum beatae est aut reprehenderit. Reprehenderit possimus fuga cumque officiis consectetur mollitia impedit maxime nesciunt fugiat?</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat amet perferendis quisquam repudiandae sed illum beatae est aut reprehenderit. Reprehenderit possimus fuga cumque officiis consectetur mollitia impedit maxime nesciunt fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat amet perferendis quisquam repudiandae sed illum beatae est aut reprehenderit. Reprehenderit possimus fuga cumque officiis consectetur mollitia impedit maxime nesciunt fugiat?</p>
+        
+        <p>Lorem ipsum dolor sit amet. </p>
+        
+    </body>
+</html>
