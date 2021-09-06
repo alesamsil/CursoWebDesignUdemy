@@ -1,0 +1,1 @@
+input[type=email],input[type=text],textarea.form-control{margin-bottom:25px;transition:background .3s}input[type=email]:focus,input[type=text]:focus,textarea.form-control:focus{background:#ccc}input[type=email],input[type=text]{padding:25px 15px}textarea.form-control{height:100px}
