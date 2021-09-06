@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        
+        <script src="beluga.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo</h1>
+        </div>
+        
+        
+        <section>
+        	<div class="container">
+	        
+		      	<h2>Média dos alunos</h2>
+				<table class="table js-tabela">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Nota 1</th>
+							<th>Nota 2</th>
+							<th>Nota 3</th>
+							<th>Nota 4</th>
+							<th>Média</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="aluno" >
+							<td class="aluno-nome">Gertrude</td>
+							<td class="aluno-n1">10</td>
+							<td class="aluno-n2">8.5</td>
+							<td class="aluno-n3">9</td>
+							<td class="aluno-n4">7.5</td>	
+							<td class="aluno-m"></td>
+						</tr>
+
+						<tr class="aluno" >
+							<td class="aluno-nome">Rey</td>
+							<td class="aluno-n1">5</td>
+							<td class="aluno-n2">8.5</td>
+							<td class="aluno-n3">6.5</td>
+							<td class="aluno-n4">7.5</td>
+							<td class="aluno-m"></td>
+						</tr>
+
+						<tr class="aluno" >
+							<td class="aluno-nome">Jessilda</td>
+							<td class="aluno-n1">8</td>
+							<td class="aluno-n2">8.5</td>
+							<td class="aluno-n3">7</td>
+							<td class="aluno-n4">7.5</td>
+							<td class="aluno-m"></td>
+						</tr>
+
+						<tr class="aluno">
+							<td class="aluno-nome">Lindóia</td>
+							<td class="aluno-n1">6.5</td>
+							<td class="aluno-n2">8.5</td>
+							<td class="aluno-n3">10</td>
+							<td class="aluno-n4">7.5</td>
+							<td class="aluno-m"></td>
+						</tr>
+						<tr class="aluno" >
+							<td class="aluno-nome">Creysson</td>
+							<td class="aluno-n1">10</td>
+							<td class="aluno-n2">9.5</td>
+							<td class="aluno-n3">10</td>
+							<td class="aluno-n4">8.5</td>
+							<td class="aluno-m"></td>
+						</tr>
+					</tbody>
+				</table>
+	        	
+        	</div>	
+        </section>
+
+        <script>
+            
+            (function(){
+                var trs = document.querySelectorAll('.js-tabela tbody .aluno');
+                
+                
+                var x = 0;
+                while(trs[x]){
+                    var linhaAluno = trs[x];
+                    console.log(linhaAluno);
+                    
+                    var n1, n2, n3, n4, media;
+                    
+                    var tds = linhaAluno.querySelectorAll('td');
+                    console.log(tds);
+                    
+                    n1 = pegaNota(tds[1]);
+                    n2 = pegaNota(tds[2]);
+                    n3 = pegaNota(tds[3]);
+                    n4 = pegaNota(tds[4]);
+                    
+                    media = calcularMedia(n1, n2, n3, n4);
+                    
+                    linhaAluno.querySelector('.aluno-m').textContent = media;
+                    x++;
+                }
+                
+                
+                function pegaNota(td){
+                    return parseFloat(td.textContent);
+                }
+                
+            })()
+            
+        </script>
+        
+    </body>
+</html>
