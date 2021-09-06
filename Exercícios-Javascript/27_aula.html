@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Curso Javascript Completo</title>
+        <meta charset="utf-8">      
+         
+         <style>
+             .done{
+                 text-decoration: line-through;
+                 color: #555;
+             }
+        </style>
+          
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Curso Javascript Completo</h1>     
+            
+            <input type="text" id="txtTask">
+            <button id="btn">Cadastrar tarefa</button>       
+            
+            <ul>
+                <li>estudar Javascript - DOM</li>
+                <li>estudar eventos em Javascript</li>
+                <li>jogar video-game</li>
+            </ul>
+
+        </div>
+        
+        <script>
+            
+(function(){
+    'use strict';
+    
+    var $ul = document.querySelector('ul');
+    var $lis = $ul.querySelectorAll('li');
+    var $txtTask = document.querySelector('#txtTask');
+    var $btn = document.querySelector('#btn');
+    
+    $btn.addEventListener('click', addTask);
+    $txtTask.addEventListener('keyup', function(e){
+        if(e.keyCode === 13) {
+            addTask();
+        }
+    });
+    
+    for(var i = 0; i < $lis.length; i++){
+        $lis[i].addEventListener('click', toogleDone)
+    }
+    
+    function toogleDone(){
+        this.classList.toggle('done');
+    }
+    
+    function addTask(){
+        var task = '<li>' + $txtTask.value + '</li>';
+        $ul.innerHTML += task;
+        
+        $txtTask.value = '';
+        $txtTask.focus();
+    }
+    
+    
+})()
+            
+        </script>
+        
+    </body>
+</html>
