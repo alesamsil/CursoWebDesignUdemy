@@ -33,15 +33,24 @@ body{
 .header__nav li{
     list-style-type: none;
     background: #242a2c;
-    padding: 25px 0;
+    text-align: center;
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
 }
 
 .header__nav a{
     text-decoration: none;
-    text-align:  center;
-    border-bottom: 1px dotted rgba(255,255,255,0.2);
     text-transform: uppercase;
     color:#586165;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding: 25px 0;
+    transition: .5s ease;
+}
+
+.header__nav a:hover{
+    color: #63c6ae;
+    
 }
 
 .header__btnMenu{
