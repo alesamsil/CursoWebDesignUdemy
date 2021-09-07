@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+.header{
+    background: #fff;
+    width: 100%;
+}
+
+.logo-text{
+    text-transform: uppercase;
+    background-color: #63c6ae;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    float:left;
+}
+
+.header__nav{
+    clear:left;
+}
+
+.header__nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav li{
+    list-style-type: none;
+    background: #242a2c;
+    padding: 25px 0;
+}
+
+.header__nav a{
+    text-decoration: none;
+    text-align:  center;
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
+    text-transform: uppercase;
+    color:#586165;
+}
+
+.header__btnMenu{
+
+}
