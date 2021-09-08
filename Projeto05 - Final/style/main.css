@@ -7,6 +7,7 @@ body{
 img{
     max-width: 100%;
 }
+
 .container{
     margin-right: auto;    
     margin-left: auto;
@@ -224,9 +225,6 @@ img{
     margin-top: 2.5em;
 }
 
-.people-cards__card{
-    
-}
 .people-cards__card:hover{
     outline: 5px solid #63c6ae;
     outline-offset: -5px;
@@ -249,21 +247,23 @@ img{
     height: 88px;
     overflow: hidden;
 }
+
 .people-cards__content{
     text-align: center;
     padding: 40px 25px 10px;
     border-left: 1px solid #dbe1e7;
 }
+
 .people-cards__title{
     color: #737c85;
     font-size: 21px;
     font-weight: normal;
 }
+
 .people-cards__text{
     color: #929da5;
     font-size: 14px;    
 }
-
 
 .content{
     background: #f8f9f9;
@@ -277,11 +277,13 @@ img{
     padding-top: 40px;
     font-weight: 400;
 }
+
 .content p{
     color: #929da5;
     font-size: 14px;
     word-spacing: 3px;
 }
+
 .button{
     padding: 15px 40px;
     border-radius: 3px;
@@ -292,13 +294,16 @@ img{
     display: inline-block;
     transition: background .5s;
 }
+
 .button:hover{
     background-color: #929da5;
 }
+
 .button-primary{
     background-color: #69c6ae;
     color: white;
 }
+
 .button-secundary{
     background-color: #455357;
     color: white;
@@ -323,6 +328,7 @@ img{
     grid-gap: 0;
     background: yellow;
 }
+
 .last-articles__thumbs img{
     display: block;
     width: 100%;
@@ -338,6 +344,7 @@ img{
 .slideshow{
     white-space: nowrap;
 }
+
 .slideshow figure{
     display: inline-block;
 }
@@ -364,7 +371,6 @@ img{
 .no-js .quote-slideshow figure + figure{
     margin-top: 5em;
 }
-
 
 .footer{
     background-color: #242a2c;
