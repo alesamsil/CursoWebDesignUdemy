@@ -22,6 +22,11 @@ img{
     width: 100%;
 }
 
+.js .header{
+    position: fixed;
+    width: 100%;
+}
+
 .logo-text{
     text-transform: uppercase;
     background-color: #63c6ae;
@@ -298,6 +303,10 @@ img{
     list-style: none;
 }
 
+.footer__logo{
+    text-transform: uppercase;
+}
+
 .footer__links a{
     color: #454e51;
     display: block;
@@ -360,6 +369,14 @@ img{
 
     .last-articles__thumbs{
         grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer .container{
+        display: flex;
+    }
+
+    .footer .container > *{
+        margin: 1.5em;
     }
 
 } 
