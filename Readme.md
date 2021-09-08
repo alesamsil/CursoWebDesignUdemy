@@ -4,6 +4,11 @@ Criei esse repositório para organizar meus exercícios e projetos realizados no
 
 -> Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/
 
+
+-> Projetos realizados: 
+
+Projeto 05: https://alesamsil-projeto05.netlify.app/
+
 -> Intrutor: Daniel Tapias Morales
 
 -> Descrição do curso:
