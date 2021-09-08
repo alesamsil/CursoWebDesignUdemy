@@ -1,6 +1,6 @@
 # Olá! 
 
-Criei esse repositório para organizar meus exercícios e projetos realizados no Curso de Webdesign/Front-end Fundamentos na Udemy. 
+Criei esse repositório para organizar meus **exercícios e projetos** realizados no Curso de Webdesign/Front-end Fundamentos na Udemy. 
 
 
 Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/
@@ -9,7 +9,6 @@ Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundam
 <a href="url"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" align="right" height="150" width="150" ></a>
 
 
-=======
 #### Projetos realizados 
 
 | Projetos |Links|
