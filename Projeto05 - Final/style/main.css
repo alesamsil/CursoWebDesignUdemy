@@ -13,6 +13,7 @@ img{
     margin-left: auto;
     padding-right: 1em;
     padding-left: 1em;
+    max-width: 980%;
 }
 
 
@@ -32,6 +33,7 @@ img{
     font-weight: bold;
     color: #fff;
     float:left;
+    text-align: right;
 }
 
 .header__nav{
@@ -342,8 +344,22 @@ img{
     .header__nav a{
         background: white;
         display: block;
-
     }
 
+    .people-cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    .content .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .last-articles__thumbs{
+        grid-template-columns: repeat(6, 1fr);
+    }
 
 } 
