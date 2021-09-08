@@ -7,6 +7,14 @@ Criei esse repositório para organizar meus exercícios e projetos realizados no
 
 -> Projetos realizados: 
 
+projeto 01: https://alesamsil-projeto01.netlify.app/
+
+projeto 02: https://alesamsil-projeto02.netlify.app/
+
+projeto 03: https://alesamsil-projeto03.netlify.app/
+
+projeto 04: https://alesamsil-projeto04.netlify.app/
+
 Projeto 05: https://alesamsil-projeto05.netlify.app/
 
 -> Intrutor: Daniel Tapias Morales
