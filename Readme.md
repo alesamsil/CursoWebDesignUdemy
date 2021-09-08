@@ -9,7 +9,7 @@ Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundam
 <a href="url"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" align="right" height="150" width="150" ></a>
 
 
-#### Projetos realizados 
+#### Projetos realizados
 
 
 | Projetos |Links|
@@ -39,5 +39,6 @@ Cria layouts complexos com flexbox e CSS grid
 Criar efeitos super interessantes com CSS3
 Há algum requisito ou pré-requisito para o curso?
 Nenhum conhecimento prévio. O curso é voltado para iniciantes
-Para quem é este curso:
+
+#### Para quem é este curso:
 Todas as pessoas que querem ingressar na área de web design e/ou front-end.
