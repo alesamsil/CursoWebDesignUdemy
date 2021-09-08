@@ -103,7 +103,6 @@ img{
 .js .laptop-slider figure.show{
     opacity: 1;
     position: static;
-    
 }
 
 .js .laptop-slider .prev, .js .laptop-slider .next{
@@ -111,7 +110,12 @@ img{
     position: absolute;
     top: 50%;
     cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.js .laptop-slider .prev:hover, .js .laptop-slider .next:hover{
+    color: #48b9a1;
+ }
 
 .js .laptop-slider .prev{
     left: 10px;
@@ -153,7 +157,13 @@ img{
     position: absolute;
     top: 50%;
     cursor: pointer;
+    transition: 0.5s ease;
 }
+
+.js .quote-slideshow .prev:hover, .js .quote-slideshow .next:hover{ 
+    color:#242a2c
+}
+
 .js .quote-slideshow .prev{
     left: 10px;
 }
@@ -183,6 +193,10 @@ img{
     font-weight: 600;
     padding: 30px 20px;
     text-transform: uppercase;
+}
+
+.hero__title abbr{
+    text-decoration: none;
 }
 
 .hero__text{
@@ -371,7 +385,7 @@ img{
 }
 
 .footer__links a:hover{
-    color: white;
+    color: #48b9a1;
 }
 
 .footer__logo{
