@@ -82,12 +82,14 @@ img{
     overflow: hidden;
     color: white;
 }
+
 .js .laptop-slider .slideshow{
     position: relative;
     width: 100%;
     margin: auto;
     max-width: 950px;
 }
+
 .js .laptop-slider figure{
     opacity: 0;
     transition: 1s opacity;
@@ -97,27 +99,27 @@ img{
     left: 0;
     
 }
+
 .js .laptop-slider figure.show{
     opacity: 1;
     position: static;
     
 }
+
 .js .laptop-slider .prev, .js .laptop-slider .next{
     z-index: 3;
     position: absolute;
     top: 50%;
     cursor: pointer;
 }
+
 .js .laptop-slider .prev{
     left: 10px;
 }
+
 .js .laptop-slider .next{
     right: 10px;
 }
-
-
-
-
 
 .js .quote-slideshow{
     position: relative;
@@ -158,7 +160,6 @@ img{
 .js .quote-slideshow .next{
     right: 10px;
 }
-
 
 .hero{
     height: 80vh;
@@ -204,9 +205,6 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
-
-
-
 
 .people-cards{
     margin-top: 2.5em;
@@ -292,8 +290,6 @@ img{
     color: white;
 }
 
-
-
 .last-articles__title{
     background-color: #63c6ae;
     padding: 5px 0;
@@ -318,7 +314,6 @@ img{
     width: 100%;
 }
 
-
 .laptop-slider{
     background-color: #242a2c;
     padding: 125px 0 100px;
@@ -332,9 +327,6 @@ img{
 .slideshow figure{
     display: inline-block;
 }
-
-
-
 
 .quote-container{
     background-color: #63c6ae;
@@ -420,15 +412,13 @@ img{
     .header__nav a{
         background: white;        
     }
-    
-    
+        
     .people-cards{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
     }
-    
-    
+        
     .content .container{
         display: grid;
         grid-template-columns: 1fr 1fr;
