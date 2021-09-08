@@ -1,25 +1,29 @@
-Olá! 
+# Olá! 
 
-Criei esse repositório para organizar meus exercícios e projetos realizados no Curso de Webdesign/Front-end Fundamentos.
-
--> Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/
+Criei esse repositório para organizar meus exercícios e projetos realizados no Curso de Webdesign/Front-end Fundamentos na Udemy. 
 
 
--> Projetos realizados: 
+Link para adquirir o curso: https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/
 
-projeto 01: https://alesamsil-projeto01.netlify.app/
 
-projeto 02: https://alesamsil-projeto02.netlify.app/
+<a href="url"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" align="right" height="150" width="150" ></a>
 
-projeto 03: https://alesamsil-projeto03.netlify.app/
 
-projeto 04: https://alesamsil-projeto04.netlify.app/
+#### Projetos realizados 
 
-Projeto 05: https://alesamsil-projeto05.netlify.app/
 
--> Intrutor: Daniel Tapias Morales
+| Projetos |Links|
+|---|---|
+| projeto 01 |https://alesamsil-projeto01.netlify.app/|
+| projeto 02 |https://alesamsil-projeto02.netlify.app/|
+| projeto 03 |https://alesamsil-projeto03.netlify.app/|
+| projeto 04 |https://alesamsil-projeto04.netlify.app/|
+| projeto 05 |https://alesamsil-projeto05.netlify.app/|
 
--> Descrição do curso:
+#### Intrutor 
+Daniel Tapias Morales
+
+#### Descrição do curso
 Neste curso você irá aprender e desenvolver suas habilidades com HTML e CSS, além de ter uma boa base da linguagem de programação Javascript.
 
 Verá conceitos avançados de HTML, incluindo semântica e uma introdução ao SEO (otimização para sites de busca) e acessibilidade.
@@ -28,7 +32,7 @@ Já com relação ao CSS você verá em detalhes todas as propriedades necessár
 
 Dará os primeiros passos com Javascript e descobrirá o poder dessa linguagem, que atualmente é a mais utilizada entre os desenvolvedores web.
 
--> O que você aprenderá:
+#### O que você aprenderá
 Poderão montar qualquer tipo de site estático, seja ele o seu próprio portfólio, seu site pessoal ou a apresentação de sua empresa na internet
 Criar sites responsivos de verdade
 Cria layouts complexos com flexbox e CSS grid
